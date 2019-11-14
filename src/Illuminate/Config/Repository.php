@@ -24,6 +24,7 @@ class Repository implements ArrayAccess, ConfigContract
     public function __construct(array $items = [])
     {
         $this->items = $items;
+        echo 111;
     }
 
     /**
